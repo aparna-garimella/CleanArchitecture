@@ -13,7 +13,6 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddApplicationDependencies();
 
 var app = builder.Build();
-var app1 = builder.Build();
 
 
 
