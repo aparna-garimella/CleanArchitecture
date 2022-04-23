@@ -14,8 +14,6 @@ builder.Services.AddApplicationDependencies();
 
 var app = builder.Build();
 
-
-
 app.MapGet("/books", (ISender sender) => sender.Send(new GetAllBooksQuery()));
 
 // Configure the HTTP request pipeline.
